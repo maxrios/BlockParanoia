@@ -1,0 +1,12 @@
+name: BlockParanoia
+version: '${version}'
+main: me.megabot.paranoia.Paranoia
+api-version: 1.19
+authors: [ megabot ]
+description: A plugin that randomly spawns a mob when a player breaks a block
+website: https://github.com/maxrios
+
+commands:
+  paranoia:
+    usage: "Usage: /<command> [on | off | set-chance] [player | 0-100]"
+    description: Enable or disable paranoia for all players or a specific one
